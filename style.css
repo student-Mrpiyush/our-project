@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+}
+
+#back {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(16, 1, 1);
+}
+
+#back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#top {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#work {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+#nav img {
+    height: 40px;
+}
+
+#nleft,
+#nright {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#nav a {
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Georgia";
+}
+
+#hero {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+#heroleft {
+    min-width: 50%;
+
+
+
+}
+
+#heroleft .elem {
+    position: relative;
+    height: 9vw;
+    overflow: hidden;
+}
+
+#heroleft .elem h1:nth-child(1) {
+    top: 0;
+}
+
+#heroleft .elem h1 {
+    top: 100%;
+    left: 0%;
+    position: absolute;
+    line-height: .9;
+    font-family: "kajiro";
+    color: #fff;
+    font-weight: 100;
+    font-size: 10vw;
+}
+
+#heroleft button {
+    pointer-events: all;
+    padding: .5vw 2vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-family: "kajiro";
+}
+
+#heroright {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 17%;
+    color: #fff;
+
+
+}
+
+#heroright p {
+
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+
+
+}
+
+#heroright #imagediv {
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-image: url(https://media.istockphoto.com/id/1307252605/photo/innovative-idea-in-businessman-hand.jpg?s=2048x2048&w=is&k=20&c=w2zkC23RNDKNCmmcxtjwT-TY30IhPjXmJo4NJDSSsv8=);
+    background-size: cover;
+    background-position: center;
+}
+
+#heroright p:nth-child(3) {
+    margin-bottom: 70px;
+}
